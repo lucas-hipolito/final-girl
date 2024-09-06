@@ -38,11 +38,11 @@ O site é dividido em seções principais, cada uma dedicada a uma série de jog
    - **Final Thoughts**: Reflexões sobre a influência e importância da série.
    - **Screenshots**: Galeria de imagens e capturas de tela da série.
 
-OBSERVAÇÃO: O projeto está pronto para ser visto em computadores, entretando, ainda está sendo aprimorado para ser utilizado em dispositivos móveis
+OBSERVAÇÃO: O projeto foi feito para ser visualizado principalmente em computadores, apesar disso, funciona bem em dispositivos móveis da Apple como o Iphone. Já no Android, alguns emojis utilizados no projeto não poderão ser visualizados com a estética criada especialmente para esse blog.
 
 ### Contato
 
-Para mais informações ou para entrar em contato, você pode encontrar os links para redes sociais e perfil profissional na seção de contato do site:
+Para mais informações ou para entrar em contato, você pode encontrar os links para redes sociais e perfil profissional (Linkedin) na seção de contato do site:
 
 - [Instagram](https://instagram.com/lucashipolito__)
 - [LinkedIn](https://www.linkedin.com/in/lucas-hipólito-377195327/)
