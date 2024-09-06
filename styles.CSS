@@ -245,6 +245,10 @@ footer .footer-laco {
         font-size: 14px;
         padding: 8px 16px;
     }
+.gallery img {
+        width: 100%; /* Garante que a imagem ocupe 100% da largura do container */
+        max-width: 100%;
+    }
 }
 
 .laco {
@@ -276,6 +280,45 @@ footer .footer-laco {
     .section-button {
         font-size: 12px;
         padding: 6px 12px;
+    }
+nav ul {
+        text-align: center; /* Alinha a navegação no centro para smartphones */
+    }
+nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+.contact-info {
+        bottom: 10px;
+        right: 10px;
+    }
+}
+/* Responsividade para telas menores que 480px (smartphones em retrato) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    header p {
+        font-size: 0.8em;
+    }
+
+    .section-button {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .gallery img {
+        border-radius: 3px; /* Ajusta o arredondamento das bordas para imagens pequenas */
+    }
+
+    .footer-button {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    .footer-icons i {
+        font-size: 18px; /* Ajusta o tamanho dos ícones sociais para telas pequenas */
     }
 }
 
