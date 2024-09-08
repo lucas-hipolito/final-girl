@@ -1,6 +1,6 @@
 # Final Girl
 
-**Final Girl** é um blog dedicado à celebração e informações de protagonistas femininas em jogos de terror. O projeto oferece uma visão detalhada de séries icônicas, como: *Fatal Frame*, *Rule of Rose* e *Clock Tower*. Através de uma combinação de informações sobre a história, personagens e moda dos jogos, o site proporciona uma experiência imersiva para fãs do gênero horror.
+**Final Girl** é um blog dedicado à celebração e informações de protagonistas femininas em jogos de terror. O projeto oferece uma visão detalhada de séries icônicas, como: *Fatal Frame*, *Rule of Rose* e *Clock Tower*. Através de uma combinação de informações sobre a história, personagens e moda dos jogos, o site proporciona uma experiência imersiva para fãs do gênero survival horror.
 
 ## Estrutura do Projeto
 
