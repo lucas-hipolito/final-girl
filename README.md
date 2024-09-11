@@ -38,7 +38,7 @@ O site é dividido em seções principais, cada uma dedicada a uma série de jog
    - **Final Thoughts**: Reflexões sobre a influência e importância da série.
    - **Screenshots**: Galeria de imagens e capturas de tela da série.
 
-OBSERVAÇÃO: O projeto está responsivo para ser utilizado em qualquer dispositivo, porém, alguns emojis não existem no Android, alterando um pouco as cores e design deles.
+OBSERVAÇÃO: O projeto está responsivo podendo ser utilizado em qualquer dispositivo, porém, alguns emojis não existem no Android, alterando um pouco as cores e design deles.
 
 ### Contato
 
