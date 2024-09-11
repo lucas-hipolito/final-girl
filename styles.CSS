@@ -140,30 +140,55 @@ h3 {
     display: block; 
 }
 
+/* Galeria */
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Colunas com largura mínima de 300px */
+    gap: 20px; /* Espaçamento entre as imagens */
 }
 
-.gallery .game-section a {
-    position: relative;
+.gallery a {
     display: block;
+    position: relative;
+    overflow: hidden; /* Oculta o excesso das imagens */
+    border-radius: 10px; /* Arredondamento das bordas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra ao redor do contêiner */
+    border: 3px solid #ff77a9; /* Borda ao redor do contêiner do link */
 }
 
-.gallery .game-section img {
+.gallery img {
     width: 100%;
-    max-width: 100%; 
-    height: auto; 
-    border: 2px solid #ff77a9; 
-    border-radius: 10px; 
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); 
+    height: 100%; /* Altura total do contêiner */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço, mantendo a proporção */
+    border-radius: 10px; /* Arredondamento das bordas da imagem */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra ao redor do contêiner */
     transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-.gallery .game-section img:hover {
+.gallery img:hover {
     transform: scale(1.05);
-    border-color: #ff77a9; 
+    border-color: #ff77a9;
+}
+
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajuste para telas menores */
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr; /* Muda para uma coluna em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery img {
+        height: 200px; /* Ajusta a altura das imagens em telas muito pequenas */
+        border-radius: 3px; /* Ajusta o arredondamento das bordas para imagens pequenas */
+    }
 }
 
 /* Rodapé */
@@ -191,6 +216,7 @@ footer .footer-laco {
     color: #ff77a9; 
     margin-left: 2px; /* Espaçamento entre o texto e o emoji */
 }
+
 /* Botão pequeno no rodapé */
 .footer-button {
     position: absolute; /* Para posicionar o botão no canto */
@@ -245,30 +271,9 @@ footer .footer-laco {
         font-size: 14px;
         padding: 8px 16px;
     }
-.gallery img {
-        width: 100%; /* Garante que a imagem ocupe 100% da largura do container */
-        max-width: 100%;
-    }
 }
-
-.laco {
-    font-size: 1.2em; 
-    position: relative;
-    display: inline-block;
-    margin-left: 10px; 
-}
-
-.laco .heart {
-    color: #ff77a9; 
-    font-size: 0.7em; 
-}
-
 
 @media (max-width: 768px) {
-    .gallery {
-        flex-direction: column;
-    }
-    
     header h1 {
         font-size: 1.5em;
     }
@@ -281,18 +286,22 @@ footer .footer-laco {
         font-size: 12px;
         padding: 6px 12px;
     }
-nav ul {
+    
+    nav ul {
         text-align: center; /* Alinha a navegação no centro para smartphones */
     }
-nav ul li {
+    
+    nav ul li {
         display: block;
         margin: 10px 0;
     }
-.contact-info {
+    
+    .contact-info {
         bottom: 10px;
         right: 10px;
     }
 }
+
 /* Responsividade para telas menores que 480px (smartphones em retrato) */
 @media (max-width: 480px) {
     header h1 {
@@ -308,10 +317,6 @@ nav ul li {
         padding: 5px 10px;
     }
 
-    .gallery img {
-        border-radius: 3px; /* Ajusta o arredondamento das bordas para imagens pequenas */
-    }
-
     .footer-button {
         font-size: 12px;
         padding: 4px 8px;
@@ -322,13 +327,10 @@ nav ul li {
     }
 }
 
-
-
 ::-webkit-scrollbar {
     width: 12px; 
     height: 12px; 
 }
-
 
 ::-webkit-scrollbar-thumb {
     background-color: #ffa4c6f1; 
@@ -336,12 +338,10 @@ nav ul li {
     border: 3px solid #1b1b1b; 
 }
 
-
 ::-webkit-scrollbar-track {
     background-color: #1b1b1b; 
     border-radius: 8px; 
 }
-
 
 ::-webkit-scrollbar-thumb:horizontal {
     background-color: #ffa4c6f1;
@@ -349,11 +349,11 @@ nav ul li {
     border: 3px solid #1b1b1b;
 }
 
-
 ::-webkit-scrollbar-track:horizontal {
     background-color: #1b1b1b;
     border-radius: 8px;
 }
+
 /* Contato Info (inicialmente oculto) */
 .contact-info {
     display: none; /* Oculta por padrão */
