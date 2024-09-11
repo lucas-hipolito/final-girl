@@ -51,7 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', handleScroll);
     handleScroll(); // Chamado inicialmente para aplicar o efeito ao carregar a página
 });
-// script.js
 
 document.addEventListener('DOMContentLoaded', function () {
     const contactButton = document.getElementById('contact-button');
