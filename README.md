@@ -1,6 +1,6 @@
 # Final Girl
 
-**Final Girl** é um blog dedicado à celebração e informações de protagonistas femininas em jogos de terror. O projeto oferece uma visão detalhada de séries clássicas, como: *Fatal Frame*, *Rule of Rose* e *Clock Tower*. Através de uma combinação de informações sobre a história, personagens e moda dos jogos, o site proporciona uma experiência imersiva para fãs do gênero survival horror.
+**Final Girl** é um blog dedicado à celebração e informações de protagonistas femininas em jogos de terror. O projeto oferece uma visão detalhada de séries clássicas, como: **Fatal Frame**, **Rule of Rose** e **Clock Tower**. Através de uma combinação de informações sobre a história, personagens e moda dos jogos, o site proporciona uma experiência imersiva para fãs do gênero survival horror.
 
 ## Estrutura do Projeto
 
@@ -38,7 +38,11 @@ O site é dividido em seções principais, cada uma dedicada a uma série de jog
    - **Final Thoughts**: Reflexões sobre a influência e importância da série.
    - **Screenshots**: Galeria de imagens e capturas de tela da série.
 
-OBSERVAÇÃO: O projeto está responsivo podendo ser utilizado em qualquer dispositivo, porém, alguns emojis não existem no Android, alterando um pouco as cores e design deles.
+### OBSERVAÇÕES: 
+-O projeto está responsivo podendo ser utilizado em qualquer dispositivo, porém, alguns emojis não existem no Android, alterando um pouco as cores e design deles.
+-Esse projeto é pessoal (sem fins lucrativos) e foi criado durante a Imersão Alura 2024 com o propósito de aprimorar minhas habilidades em frontend além de abordar um tema que gosto bastante.
+-Outros jogos serão adicionados futuramente.
+-Todos os direitos reservados para os criadores dos jogos.
 
 ### Contato
 
@@ -47,5 +51,5 @@ Para mais informações ou para entrar em contato, você pode encontrar os links
 - [Instagram](https://instagram.com/lucashipolito__)
 - [LinkedIn](https://www.linkedin.com/in/lucas-hipólito-377195327/)
 
-Link do Vercel:
+### Deploy:
 https://final-girl.vercel.app/
