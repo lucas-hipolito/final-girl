@@ -43,7 +43,7 @@ O site é dividido em seções principais, cada uma dedicada a uma série de jog
 - **`O projeto está responsivo podendo ser utilizado em qualquer dispositivo, porém, alguns emojis não existem no Android, alterando um pouco as cores e design deles`**.
 - **`Esse projeto é pessoal (sem fins lucrativos) e foi criado durante a Imersão Alura 2024 com o propósito de aprimorar minhas habilidades em frontend além de abordar um tema que gosto bastante`**..
 - **`Outros jogos serão adicionados futuramente`**.
-- **`Todos os direitos reservados para os criadores dos jogos`**.
+- **`Todos os direitos de imagem reservados para os criadores dos jogos`**.
 
 ### Contato
 
